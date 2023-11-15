@@ -27,7 +27,7 @@
 
 (defn draw-state [state]
   ;(q/background 255 255 255)                                ; try me
-  ;(q/background 246 245 236)                                ; try me
+  (q/background 246 245 236)                                ; try me
   (q/fill (:color state) 255 255)
   (let [angle (:angle state)
         dx (:dx state)
