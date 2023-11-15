@@ -5,9 +5,3 @@
  :aliases {:dev {:extra-paths ["target" "resources"]
                  :extra-deps  {com.bhauman/figwheel-main {:mvn/version "0.2.18"}}
                  :main-opts   ["-m" "figwheel.main" "--build" "dev" "--repl"]}}}
-
-;{:paths   ["src" "target" "resources"]
-; :deps    {org.clojure/clojurescript {:mvn/version "1.11.60"}
-;           com.bhauman/figwheel-main {:mvn/version "0.2.18"}
-;           quil/quil                 {:mvn/version "4.3.1323"}}
-; :aliases {:dev {:main-opts ["-m" "figwheel.main" "--build" "dev" "--repl"]}}}
