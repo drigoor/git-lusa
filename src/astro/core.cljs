@@ -3,6 +3,8 @@
             [quil.middleware :as m]))
 
 
+; um comentario do github
+
 (defn setup []
   (q/frame-rate 30)
   (q/color-mode :rgb)                                       ; change me to :hsb
